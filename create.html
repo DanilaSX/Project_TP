@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Добавление поля
+{% endblock %}
+
+{% block body %}
+<div class="album py-5 bg-body-tertiary">
+    <div class="container">
+    <h2 class="fw-normal">Добавить поле или отзыв</h2>
+    <form method="post" class="form-control">
+        <input type="text" name="title" placeholder="Ввведите название поля" class="form-control"><br>
+        <input type="text" name="text" placeholder="Напишите адрес поля и отзыв" class="form-control"><br>
+        <button class="btn btn-success" type="submit">Добавить</button>
+    </form>
+    </div>
+</div>
+{% endblock %}
